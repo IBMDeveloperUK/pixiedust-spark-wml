@@ -16,3 +16,14 @@ Learn how to use streaming analytics to process and aggregate data in real-time 
  * [Create a new project (or re-use an existing one) and associate it with an Apache Spark service instance](https://dataplatform.ibm.com/projects?context=analytics)
  * Add a new notebook from URL https://raw.githubusercontent.com/ibm-watson-data-lab/localcart-at-think-conf/master/notebooks/localcart-scenario-four.ipynb
  * Follow the notebook instructions
+ * Note: Use the following Message Hub connection information:
+    * **Name**: `clickstream` 
+    * **API key**: `K2AuexNNjKgGhxy2le3tB1LUrld61PuR0TwsCr7ZR1W8mNWy`
+    * **Brokers**: "kafka03-prod01.messagehub.services.us-south.bluemix.net:9093",
+    "kafka05-prod01.messagehub.services.us-south.bluemix.net:9093",
+    "kafka02-prod01.messagehub.services.us-south.bluemix.net:9093",
+    "kafka01-prod01.messagehub.services.us-south.bluemix.net:9093",
+    "kafka04-prod01.messagehub.services.us-south.bluemix.net:9093"
+
+    * **Username**: `K2AuexNNjKgGhxy2`
+    * **Password**: `le3tB1LUrld61PuR0TwsCr7ZR1W8mNWy`
