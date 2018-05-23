@@ -13,5 +13,5 @@ Learn how to analyze data in a Python notebook using Apache Spark and PixieDust
  * Create a new project 
  * Associate the project with an Apache Spark service instance. Go to Settings and scroll down to Associated Services. Click + and select Spark from the drop-down menu. Select an existing service or create a new one for free.
 ![spark](images/add_spark.png)
- * Add a new notebook from URL https://raw.githubusercontent.com/IBMCodeLondon/localcart-workshop/master/notebooks/xxxxxx.ipynb
+ * Add a new notebook from URL https://raw.githubusercontent.com/IBMCodeLondon/localcart-workshop/master/notebooks/part-1-analyze-customer-data.ipynb
  * Follow the notebook instructions
