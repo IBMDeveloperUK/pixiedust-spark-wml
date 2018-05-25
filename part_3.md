@@ -1,7 +1,7 @@
 ### Build a revenue dashboard using PixieApps
 
 Learn how to use streaming analytics to process and aggregate data in real-time and visualize the persisted results using a simple web app in a Python notebook.
-![scenario_4](https://raw.githubusercontent.com/ibm-watson-data-lab/localcart-at-think-conf/master/images/scenario_4.png)
+![part 3](images/part_3.png)
 
 #### Prerequisites
  * Streaming Analytics service instance
