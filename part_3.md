@@ -18,12 +18,10 @@ Learn how to use streaming analytics to process and aggregate data in real-time 
  * Follow the notebook instructions
  * Note: Use the following Message Hub connection information:
     * **Name**: `clickstream` 
-    * **API key**: `K2AuexNNjKgGhxy2le3tB1LUrld61PuR0TwsCr7ZR1W8mNWy`
-    * **Brokers**: `"kafka03-prod01.messagehub.services.us-south.bluemix.net:9093",
-    "kafka05-prod01.messagehub.services.us-south.bluemix.net:9093",
-    "kafka02-prod01.messagehub.services.us-south.bluemix.net:9093",
-    "kafka01-prod01.messagehub.services.us-south.bluemix.net:9093",
-    "kafka04-prod01.messagehub.services.us-south.bluemix.net:9093"`
+    * **API key**: `rtWLI3VCAhgkVo73pDCJLlc84UHfLKn326rCJERABYGL55LE`
+    * **Brokers**: `kafka05-prod01.messagehub.services.us-south.bluemix.net:9093,kafka02-prod01.messagehub.services.us-south.bluemix.net:9093,kafka04-prod01.messagehub.services.us-south.bluemix.net:9093,kafka01-prod01.messagehub.services.us-south.bluemix.net:9093,kafka03-prod01.messagehub.services.us-south.bluemix.net:9093`
+    * **Username**: `rtWLI3VCAhgkVo73`
+    * **Password**: `pDCJLlc84UHfLKn326rCJERABYGL55LE`
 
     * **Username**: `K2AuexNNjKgGhxy2`
     * **Password**: `le3tB1LUrld61PuR0TwsCr7ZR1W8mNWy`
