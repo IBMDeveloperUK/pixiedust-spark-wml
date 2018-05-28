@@ -14,8 +14,6 @@ IBM Cloud and open source tools and services, including Jupyter Notebooks, Apach
 
 ### Parts
 
-Explore the 3 parts of the workshop in any order.
-
 * [Part 1: Static data analysis using Python, Apache Spark and PixieDust](part_1.md)
 * [Part 2: Build a product recommendation engine](part_2.md)
 * [Part 3: Build a revenue dashboard using PixieApps](part_3.md)
