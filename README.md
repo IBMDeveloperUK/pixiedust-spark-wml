@@ -1,4 +1,4 @@
-# Build a Product Recommendation Engine and Revenue Dashboard with PixieDust 
+# Analyse Customer Data and Build a Product Recommendation Engine and Revenue Dashboard with PixieDust 
 
 An example of a same-day grocery delivery service is used to show you how to:
 
