@@ -1,5 +1,5 @@
-# Analyse Customer Data and Build a Product Recommendation Engine and Revenue Dashboard with PixieDust 
-
+# Create Customer and Product Data Magic with PixieDust
+ 
 An example of a same-day grocery delivery service is used to show you how to:
 
 1. Explore and analyze customer behavior information (such as demographics and shopping cart values)
