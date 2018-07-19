@@ -5,7 +5,7 @@ An example of a same-day grocery delivery service is used to show you how to:
 1. Explore and analyze customer behavior information (such as demographics and shopping cart values)
 2. Build a machine learning recommendation engine to encourage additional purchases based on past buying behavior
 
-IBM Cloud and open source tools and services, including Jupyter Notebooks, Apache Spark, Apache Kafka, Streams Designer, Watson Machine Learning and IBM Cloud Object Storage are used.
+IBM Cloud and open source tools and services, including Jupyter Notebooks, Apache Spark and Watson Machine Learning are used.
 
 ### Before you start
 
