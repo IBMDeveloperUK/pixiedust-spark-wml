@@ -15,4 +15,5 @@ Learn how to create, deploy and consume a Machine Learning model.
  * Go to the `Settings` tab and scroll down to Associated Services. Click + and select `Watson` from the drop-down menu. Select Machine Learning, click `Add`, choose the Lite Plan and click create.
  ![](images/machine_learning.png)
  * As in Part 1, add a new notebook from URL https://raw.githubusercontent.com/IBMCodeLondon/localcart-workshop/master/notebooks/part-2-product-recommendation-engine.ipynb
+ * Make sure you select Spark as your runtime.
  * Follow the notebook instructions.
