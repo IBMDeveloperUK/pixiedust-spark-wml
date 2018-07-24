@@ -9,7 +9,7 @@ Learn how to analyze data in a Python notebook using Apache Spark and PixieDust
  * PixieDust (A Python helper library for developers and data scientists)
  
 #### Getting started
- * Open [IBM Watson Studio](https://www.ibm.com/cloud/watson-studio)
+ * Open [IBM Watson Studio](https://eu-gb.dataplatform.ibm.com/)
  * Create a new project by clicking on the tile as below. Choose `Complete` and `OK`. 
  
  ![](images/new_project.png)
