@@ -3,9 +3,10 @@
 Learn how to create, deploy and consume a Machine Learning model. 
 ![part_2](https://raw.githubusercontent.com/IBMCodeLondon/localcart-workshop/master/images/part_2.png)
 
-#### Prerequisites
+#### You will use
  * Apache Spark service instance with Machine Learning libraries
  * Watson Machine Learning service instance
+ * PixieDust to build a PixieApp
  
 #### Getting started
 
