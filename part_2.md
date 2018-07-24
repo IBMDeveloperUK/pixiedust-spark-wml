@@ -9,7 +9,8 @@ Learn how to create, deploy and consume a Machine Learning model.
  
 #### Getting started
 
- * Open [IBM Watson Studio](https://www.ibm.com/cloud/watson-studio)
+ * Open [IBM Watson Studio](https://eu-gb.dataplatform.ibm.com/)
+ * Open the same project that you created in [part 1](https://github.com/IBMCodeLondon/localcart-workshop/edit/master/part_2.md).
  * Create a new project (or re-use an existing one) and associate it with an Apache Spark service instance
  * [Provision a Watson Machine Learning service instance choosing the **Lite** plan](https://dataplatform.ibm.com/data/discovery/predictive-modeling/details?target=watson&context=analytics)
  * Add a new notebook from URL https://raw.githubusercontent.com/IBMCodeLondon/localcart-workshop/master/notebooks/part-2-product-recommendation-engine.ipynb
