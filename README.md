@@ -11,10 +11,18 @@ IBM Cloud and open source tools and services, including Jupyter Notebooks, Apach
 
 [Sign up](https://ibm.biz/BdZCKW) for an IBM Cloud account and access Watson Studio.
 
-1. At the top of your IBM Cloud dashboard click `Create Resource`. You can find the dashboard under the hamburger menu at the top left.
-1. Search for Watson Studio and click on the tile
-1. Select the Lite plan and click `Create`
-1. Go back to the dashboard and click on your Watson Studio service and click on `Get Started`. Alternatively, go directly to [Watson Studio](https://eu-gb.dataplatform.ibm.com).
+1. At the top of your IBM Cloud dashboard click `Create Resource`. You can find the dashboard under the hamburger menu at the top left:
+
+![](images/dashboard.png)
+
+1. Search for Watson Studio and click on the tile:
+
+![](images/studio.png)
+
+1. Select the Lite plan and click `Create`.
+1. Go back to the dashboard and click on your Watson Studio service and then click `Get Started`. Alternatively, go directly to [Watson Studio](https://eu-gb.dataplatform.ibm.com):
+
+![](images/launch.png)
 
 > **Optional**: install Python and Jupyter through [Anaconda](https://www.anaconda.com/) to run the notebooks from the workshop on your own machine and follow [these steps](https://pixiedust.github.io/pixiedust/install.html) to create a Jupyter kernel with Python2.7 and Spark2.1. But note that you will still need an IBM Cloud account to access the Watson Machine Learning APIs.
 
