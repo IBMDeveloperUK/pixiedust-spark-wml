@@ -38,3 +38,8 @@ Every code cell is selectable and is preceded by a tag in the left margin. The t
 * A `*`, this indicates that the cell is currently executing.
 
 To execute the code cells in your notebook select the cell, and then press the `Play` button in the toolbar.
+
+* Congratulations you have finished the first part of the notebook!
+
+* In [Part 2](https://github.com/IBMCodeLondon/localcart-workshop/blob/master/part_2.md) you will learn how to build a product recommendation engine.
+
