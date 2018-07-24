@@ -27,17 +27,19 @@ Learn how to analyze data in a Python notebook using Apache Spark and PixieDust
  
  ![notebook](images/new_notebook.png)
  
- * The notebook will load. Follow the notebook instructions.
+ * The notebook will load. 
  
- * To run the notebook each code cell in the notebook needs to be executed, in order, from top to bottom.
+To run the notebook each code cell in the notebook needs to be executed, in order, from top to bottom.
 
 Every code cell is selectable and is preceded by a tag in the left margin. The tagformat is `In [x]:`. Depending on the state of the notebook, the `x` can be:
 
-* A blank, this indicates that the cell has never been executed.
-* A number, this number represents the relative order this code step was executed.
-* A `*`, this indicates that the cell is currently executing.
+1. A blank, this indicates that the cell has never been executed.
+2. A number, this number represents the relative order this code step was executed.
+3. A `*`, this indicates that the cell is currently executing.
 
 To execute the code cells in your notebook select the cell, and then press the `Play` button in the toolbar.
+
+* Go to the notebook and follow the instructions.
 
 #### Next
 
