@@ -9,7 +9,7 @@ IBM Cloud and open source tools and services, including Jupyter Notebooks, Apach
 
 ### Before you start
 
-[Sign up](https://ibm.biz/BdZCKW) for an IBM Cloud account and access Watson Studio].
+[Sign up](https://ibm.biz/BdZCKW) for an IBM Cloud account and access Watson Studio.
 
 1. At the top of your IBM Cloud dashboard click `Create Resource`. You can find the dashboard under the hamburger menu at the top left.
 1. Search for Watson Studio and click on the tile
