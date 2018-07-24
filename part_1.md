@@ -4,7 +4,7 @@ Learn how to analyze data in a Python notebook using Apache Spark and PixieDust
 
 ![part_1](images/part_1.png)
 
-#### Prerequisites
+#### You will use
  * Apache Spark
  * PixieDust (A Python helper library for developers and data scientists)
  
