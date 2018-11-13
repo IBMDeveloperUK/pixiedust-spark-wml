@@ -25,7 +25,7 @@ When you have completed this code patterns, you will understand how to:
 1. Transform the data with Apache Spark
 1. Create charts and maps with PixieDust
 
-# Getting Started
+## Getting Started
 
 - Open [IBM Watson Studio](https://eu-gb.dataplatform.ibm.com/)
 - Create a new project by clicking on `Get Started` and `New Project`. 
@@ -36,7 +36,7 @@ When you have completed this code patterns, you will understand how to:
 - Select an Object Storage from the drop-down menu or create a new one for free. This is used to store the notebooks and data. **Do not forget to click refresh when returning to the Project page.**
 - click `Create`.  
 
--  Add a new notebook. Go to the `Assets` tab at the top of the Project page. Scroll down to `Notebooks` and click +. Choose new notebook **From URL**. Give your notebook a name and copy the URL: ***
+-  Add a new notebook. Go to the `Assets` tab at the top of the Project page. Scroll down to `Notebooks` and click +. Choose new notebook **From URL**. Give your notebook a name and copy the URL: `https://github.com/IBMCodeLondon/localcart-workshop/blob/master/notebooks/part-1-analyze-customer-data.ipynb`
  
 - Select the **Default Spark Python** runtime and click `Create Notebook`. 
  
