@@ -47,7 +47,7 @@ When you have completed this code patterns, you will understand how to:
 ## Load customer data in the notebook
 
 * Run the cells one at a time. Select the cell, and then press the `Play` button in the toolbar.
-* Make sure the latest version of PixieDust is installed. If you get a warning run this code in a new cell: `pip install --upgrade pixiedust`. **Do not add --user ass suggested by PixieDust**
+* Make sure the latest version of PixieDust is installed. If you get a warning run this code in a new cell: `pip install --upgrade pixiedust`. **Do not add --user as suggested by PixieDust**
 * Load the data into the notebook.
 
 ## Transform the data with Apache Spark
