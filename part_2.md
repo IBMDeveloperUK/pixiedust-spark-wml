@@ -4,7 +4,7 @@ Learn how to create, deploy and consume a Machine Learning model.
 ![part_2](https://raw.githubusercontent.com/IBMCodeLondon/localcart-workshop/master/images/part_2.png)
 
 #### You will use
- * Apache Spark service instance with Machine Learning libraries
+ * Jupyter notebook
  * Watson Machine Learning service instance
  * PixieDust to build a PixieApp
  
@@ -15,5 +15,5 @@ Learn how to create, deploy and consume a Machine Learning model.
  * Go to the `Settings` tab and scroll down to Associated Services. Click + and select `Watson` from the drop-down menu. Select Machine Learning, click `Add`, choose the Lite Plan and click create.
  ![](images/machine_learning.png)
  * As in Part 1, add a new notebook from URL https://raw.githubusercontent.com/IBMCodeLondon/localcart-workshop/master/notebooks/part-2-product-recommendation-engine.ipynb
- * Make sure you select Spark as your runtime.
+ * Make sure you select Default Spark Python as your runtime as for the notebook from Part 1.
  * Follow the notebook instructions.
