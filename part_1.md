@@ -4,46 +4,77 @@ Learn how to analyze data in a Python notebook using Apache Spark and PixieDust
 
 ![part_1](images/part_1.png)
 
-#### You will use
- * Apache Spark
- * PixieDust (A Python helper library for developers and data scientists)
- 
-#### Getting started
- * Open [IBM Watson Studio](https://eu-gb.dataplatform.ibm.com/)
- * Create a new project by clicking on the tile as below. Choose `Complete` and click `OK`. 
- 
- ![](images/new_project.png)
- 
- * Give your Project a name.
- * Select an Object Storage from the drop-down menu or create a new one for free. This is used to store the notebooks and data. Do not forget to click refresh when returning to the Project page.
- * click `Create`.  
- 
- * Associate the project with an Apache Spark service instance. Go to the `Settings` tab at the top of the Project page, and then scroll down to Associated Services. Click + and select Spark from the drop-down menu. Select an existing service or create a new one for free.
- 
-![spark](images/add_spark.png)
+When you have completed this code patterns, you will understand how to:
 
- * Add a new notebook. Go to the `Assets` tab at the top of the Project page. Scroll down to `Notebooks` and click +. Choose new notebook `From URL`. Give your notebook a name and copy this URL: https://raw.githubusercontent.com/IBMCodeLondon/localcart-workshop/master/notebooks/part-1-analyze-customer-data.ipynb
- * Make sure you select Spark as your runtime and click `Create Notebook`.
+- Use [Jupyter Notebooks](http://jupyter.org/) in [IBM Watson Studio](https://dataplatform.ibm.com/)
+- Load data with PixieDust and clean data with Spark
+- Create charts and maps with [PixieDust](https://github.com/pixiedust/pixiedust)
+
+## Included Components
+- [IBM Watson Studio](https://console.bluemix.net/catalog/services/watson-studio): a suite of tools and a collaborative environment for data scientists, developers and domain experts
+- [IBM Apache Spark](https://console.ng.bluemix.net/catalog/services/apache-spark): an open source cluster computing framework optimized for extremely fast and large scale data processing
+
+## Featured Technologies
+- [Jupyter notebooks](http://jupyter.org/): an open-source web application that allows you to create and share documents that contain live code, equations, visualizations and explanatory text
+- [PixieDust](https://github.com/pixiedust/pixiedust): Open source Python package, providing support for Javascript/Node.js code.
  
- ![notebook](images/new_notebook.png)
+## Flow
+1. Log in to IBM Watson Studio
+1. Load the provided notebook into Watson Studio
+1. Load the customer data in the notebook
+1. Transform the data with Apache Spark
+1. Create charts and maps with PixieDust
+
+# Getting Started
+
+- Open [IBM Watson Studio](https://eu-gb.dataplatform.ibm.com/)
+- Create a new project by clicking on `Get Started` and `New Project`. 
  
- * The notebook will load. 
+ ![](images/new-project.png)
  
-To run the notebook each code cell in the notebook needs to be executed, in order, from top to bottom.
+- Give your Project a name.
+- Select an Object Storage from the drop-down menu or create a new one for free. This is used to store the notebooks and data. **Do not forget to click refresh when returning to the Project page.**
+- click `Create`.  
 
-Every code cell is selectable and is preceded by a tag in the left margin. The tagformat is `In [x]:`. Depending on the state of the notebook, the `x` can be:
+-  Add a new notebook. Go to the `Assets` tab at the top of the Project page. Scroll down to `Notebooks` and click +. Choose new notebook **From URL**. Give your notebook a name and copy the URL: ***
+ 
+- Select the **Default Spark Python** runtime and click `Create Notebook`. 
+ 
+![notebook](images/new_notebook.png)
+ 
+- The notebook will load. 
 
-1. A blank, this indicates that the cell has never been executed.
-2. A number, this number represents the relative order this code step was executed.
-3. A `*`, this indicates that the cell is currently executing.
+## Load customer data in the notebook
 
-To execute the code cells in your notebook select the cell, and then press the `Play` button in the toolbar.
+* Run the cells one at a time. Select the cell, and then press the `Play` button in the toolbar.
+* Make sure the latest version of PixieDust is installed. If you get a warning run this code in a new cell: `pip install --upgrade pixiedust`. **Do not add --user ass suggested by PixieDust**
+* Load the data into the notebook.
 
-* Go to the notebook and follow the instructions.
+## Transform the data with Apache Spark
 
-#### Next
+Before analyzing the data, it needs to be cleaned and formatted. This can be done with a few [pyspark](https://spark.apache.org/docs/latest/api/python/index.html) commands:
 
-* Congratulations you have finished the first part of the notebook!
+* Select only the columns you are interested in with `df.select()`
+* Convert the AGE column to a numeric data type so you can run calculations on customer age with a user defined function ([udf](https://spark.apache.org/docs/latest/api/python/pyspark.sql.html?highlight=udf#pyspark.sql.functions.udf)).
+* Derive the gender information for each customer based on the salutation and rename the GenderCode column to GENDER with a second `udf`.
+
+## Create charts and maps with PixieDust
+
+The data can now be explored with PixieDust:
+
+* With `display()` explore the data in a table.
+
+* Then click on the below button to create one of the charts in the list.
+
+![notebook](images/display.png)
+
+* Drag and drop the variables you want to display into the `Keys` and `Values` fields. Select the aggregation from the drop-down menu and click `OK`.
+
+* From the menu on the right of the chart you can select which renderer you want to use, where each one of them visualises the data in a different way. Other options are clustering by a variable, the size and orientation of the chart and the display of a legend. 
+
+## Next
+
+* Congratulations you have finished the first part of the workshop!
 
 * In [Part 2](https://github.com/IBMCodeLondon/localcart-workshop/blob/master/part_2.md) you will learn how to build a product recommendation engine.
 
