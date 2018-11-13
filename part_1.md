@@ -10,21 +10,6 @@ When you have completed this code patterns, you will understand how to:
 - Load data with PixieDust and clean data with Spark
 - Create charts and maps with [PixieDust](https://github.com/pixiedust/pixiedust)
 
-## Included Components
-- [IBM Watson Studio](https://console.bluemix.net/catalog/services/watson-studio): a suite of tools and a collaborative environment for data scientists, developers and domain experts
-- [IBM Apache Spark](https://console.ng.bluemix.net/catalog/services/apache-spark): an open source cluster computing framework optimized for extremely fast and large scale data processing
-
-## Featured Technologies
-- [Jupyter notebooks](http://jupyter.org/): an open-source web application that allows you to create and share documents that contain live code, equations, visualizations and explanatory text
-- [PixieDust](https://github.com/pixiedust/pixiedust): Open source Python package, providing support for Javascript/Node.js code.
- 
-## Flow
-1. Log in to IBM Watson Studio
-1. Load the provided notebook into Watson Studio
-1. Load the customer data in the notebook
-1. Transform the data with Apache Spark
-1. Create charts and maps with PixieDust
-
 ## Getting Started
 
 - Open [IBM Watson Studio](https://eu-gb.dataplatform.ibm.com/)
