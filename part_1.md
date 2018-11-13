@@ -27,7 +27,7 @@ When you have completed this code patterns, you will understand how to:
  
 ![notebook](images/new_notebook.png)
  
-- The notebook will load. 
+- The notebook will load. Now you can follow along with the instructions in the notebook.
 
 ## Load customer data in the notebook
 
