@@ -9,7 +9,7 @@ IBM Cloud and open source tools and services, including Jupyter Notebooks, Apach
 
 ### Before you start
 
-- [Sign up](https://ibm.biz/BdzPRF) for an IBM Cloud account
+- [Sign up](https://ibm.biz/Bd2bsQ) for an IBM Cloud account
 
 - When you are signed up click `Create Resource` at the top of the Resources page. You can find the resources under the hamburger menu at the top left:
 
