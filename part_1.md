@@ -12,21 +12,12 @@ When you have completed this code patterns, you will understand how to:
 
 ## Getting Started
 
-- Open [IBM Watson Studio](https://eu-gb.dataplatform.ibm.com/)
-- Create a new project by clicking on `Get Started` and `New Project`. 
- 
- ![](images/new-project.png)
- 
-- Give your Project a name.
-- Select an Object Storage from the drop-down menu or create a new one for free. This is used to store the notebooks and data. **Do not forget to click refresh when returning to the Project page.**
-- click `Create`.  
+-  Add a new notebook to your project. Click `Add to project` and choose `Notebook`:
 
--  Add a new notebook. Go to the `Assets` tab at the top of the Project page. Scroll down to `Notebooks` and click +. Choose new notebook **From URL**. Give your notebook a name and copy the URL: `https://github.com/IBMCodeLondon/localcart-workshop/blob/master/notebooks/part-1-analyze-customer-data.ipynb`
- 
-- Select the **Default Spark Python** runtime and click `Create Notebook`. 
- 
-![notebook](images/new_notebook.png)
- 
+![](https://github.com/IBMDeveloperUK/pandas-workshop/blob/master/images/addnotebook.png)
+
+- Choose new notebook `From URL`. Give your notebook a name and copy the URL `https://github.com/IBMCodeLondon/localcart-workshop/blob/master/notebooks/part-1-analyze-customer-data.ipynb` 
+- Select the **Default Spark Python 3.6 XS ** runtime and click `Create Notebook`.  
 - The notebook will load. Now you can follow along with the instructions in the notebook.
 
 ## Load customer data in the notebook
