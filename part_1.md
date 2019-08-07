@@ -4,7 +4,7 @@ Learn how to analyze data in a Python notebook using Apache Spark and PixieDust
 
 ![part_1](images/part_1.png)
 
-When you have completed this code patterns, you will understand how to:
+When you have completed this workshop, you will understand how to:
 
 - Use [Jupyter Notebooks](http://jupyter.org/) in [IBM Watson Studio](https://dataplatform.ibm.com/)
 - Load data with PixieDust and clean data with Spark
